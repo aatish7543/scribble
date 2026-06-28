@@ -579,6 +579,7 @@ footer{
   .nav-btn:not(.solid){display:none}
   .burger{display:flex}
   footer{flex-direction:column;align-items:flex-start}
+  .nav-btn .solid { display: none;}
 }
 @media(min-width:601px){
   #signIn{display:inline-block}
@@ -608,10 +609,7 @@ footer{
 [data-theme="light"] .text-logo { background-image:var(--text-brown); }
 [data-theme="dark"]  .text-logo { background-image:var(--text-cream); }
 
-.nav-logo .wave-logo        { width:30px; height:30px;
-@media(max-width:600px){
-  display: none;
-} }
+.nav-logo .wave-logo        { width:30px; height:30px; }
 .nav-logo .text-logo        { width:86px; height:26px; }
 .hero-logo-scribble .wave-logo { width:46px; height:46px; }
 .hero-logo-scribble .text-logo { width:152px; height:50px; }
