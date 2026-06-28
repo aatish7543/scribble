@@ -162,6 +162,9 @@ nav::after{
   position:absolute;top:0;bottom:0;left:clamp(3rem,8vw,6rem);
   width:1.5px;background:var(--red-margin);
   opacity:.5;pointer-events:none;
+  @media(max-width:600px){
+    display: none;
+  }
 }
 
 .hero-content{
@@ -333,6 +336,9 @@ h1.headline .underline::after{
   opacity:.3;
 }
 .ruler-margin{
+  @media(max-width:600px){
+    display: none;
+  }
   position:absolute;top:0;bottom:0;left:clamp(3rem,8vw,6rem);
   width:1.5px;background:var(--red-margin);opacity:.4;pointer-events:none;
 }
